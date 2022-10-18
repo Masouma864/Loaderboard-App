@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Learderboar',
+      title: 'Learderboard',
       template: './src/index.html',
     }),
   ],
