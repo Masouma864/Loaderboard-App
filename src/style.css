@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #0ff;
+    --secondary-color: #6abac6d9;
+    --tetiary-color: #0d1f2d;
+    --tetiary-color-2: #0d1f2dab;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #6abac6b0;
+}
+
+.main {
+    border: 2px solid black;
+    width: 70%;
+    background-color: wheat;
+    margin: 20%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+
+}
+
+section {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.2em 1em;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: var(--tetiary-color);
+    color: rgba(0, 255, 255, 0.747);
+}
+
+h1 {
+    margin: 1rem;
+    padding: 0 0.2rem;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    filter: drop-shadow(1px 1px 1px);
+    text-shadow: 1px 1px 1px var(--tetiary-color);
+    /* stylelint-disable-next-line csstree/validator */
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
