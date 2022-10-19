@@ -5,12 +5,10 @@
    - In this activity we  set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
 
 
-
-   - The objectives of this project is to:
-   - Use callbacks and promises.
-   - Learn how to use proper ES6 syntax.
-   - Use ES6 modules to write modular JavaScript.
-   - Use webpack to bundle JavaScript.
+-Send and receive data from an API.
+-Use API documentation.
+-Understand and use JSON.
+-Make JavaScript code asynchronous.
 
 
 ## Built With
