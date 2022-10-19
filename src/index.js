@@ -1,30 +1,21 @@
 import './style.css';
-import postData from './modules/post.js';
-import getData from './modules/get.js';
+import { createGame, addScore, getAllScores } from './Services/API.js';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7thejendiskaoidjd87g87/scores';
+const nameInput = document.querySelector('#name');
+const scoreInput = document.querySelector('#score');
+const submitBtn = document.querySelector('.btn');
+const refreshBtn = document.querySelector('.refresh');
 
-
-const name = document.querySelector('#name');
-const score = document.querySelector('#score');
-const refresh = document.querySelector('.btn');
-const addBtn = document.querySelector('.btn-click');
-
-addBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-
-  const leaderObj = {
-    user: name.value,
-    score: score.value,
-  };
-
-  postData(url, leaderObj);
-
-  name.value = '';
-  score.value = '';
+submitBtn.addEventListener('click', () => {
+  if (nameInput.value !== '' && scoreInput.value !== '') {
+    addScore(nameInput.value, scoreInput.value);
+  } else {
+    alert('you have to type name and score');
+  }
 });
 
-refresh.addEventListener('click', (e) => {
-  e.preventDefault();
-  getData(url);
+refreshBtn.addEventListener('click', async () => {
+  getAllScores();
 });
+
+createGame();

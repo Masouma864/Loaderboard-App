@@ -32,8 +32,8 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 10px;
+  gap: 18px;
+  margin: 30px;
 }
 
 .head {
@@ -66,4 +66,29 @@ h1 {
   text-shadow: 1px 1px 1px var(--tetiary-color);
   /* stylelint-disable-next-line csstree/validator */
   font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.element {
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.table {
+  border: 2px solid;
+  margin-top: 10px;
+  padding: 5px 10px;
+  justify-content: space-between;
+  width: 220px;
+  background-color: white;
 }

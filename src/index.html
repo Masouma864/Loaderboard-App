@@ -17,7 +17,7 @@
                 <div class="scores">
                     <div class="head">
                         <p>Recent scores</p>
-                        <button type="reset">refresh</button>
+                        <button type="reset" class="refresh">refresh</button>
                     </div>
                     <table class="table" id="table">
                         
@@ -25,9 +25,9 @@
                 </div>
                 <form class="form">
                     <h2>Add your score</h2>
-                    <input type="text" value="" placeholder="Your name" maxlength="30px" required>
-                    <input type="text" value="" placeholder="Your score" maxlength="30px" required>
-                    <input type="button" value="submit" placeholder="submit">
+                    <input type="text" id="name" placeholder="Your name" maxlength="30px" required>
+                    <input type="text" id="score" placeholder="Your score" maxlength="30px" required>
+                    <input type="button" value="submit" placeholder="submit" class="btn">
                 </form>
             </div>
         </section>
