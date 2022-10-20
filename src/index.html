@@ -9,21 +9,30 @@
 </head>
 
 <body>
-    <div class="main">
-     
-        <section>
-            <h1>Loaderboard</h1>
-            <div class="container">
+    <h1 class=" head1 d-flex" >Loaderboard</h1>
+
+    
+        <section >
+         
+            <div class="container d-flex f-row">
                 <div class="scores">
-                    <div class="head">
-                        <p>Recent scores</p>
+                    <div class="head  d-flex f-row element">
+                        <h2>Recent scores</h2>
                         <button type="reset" class="refresh">refresh</button>
                     </div>
                     <table class="table" id="table">
-                        
+                        <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Score</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            
+                          </tbody>
                     </table>
                 </div>
-                <form class="form">
+                <form class="form d-flex f-col">
                     <h2>Add your score</h2>
                     <input type="text" id="name" placeholder="Your name" maxlength="30px" required>
                     <input type="text" id="score" placeholder="Your score" maxlength="30px" required>
@@ -31,10 +40,7 @@
                 </form>
             </div>
         </section>
-        <footer class="footer flex">
-            <p class="foot">&copy Grey Is Silver</p>
-        </footer>
-    </div>
+
 </body>
 
 </html>

@@ -13,59 +13,63 @@
 }
 
 body {
-  background-color: #6abac6b0;
-}
-
-.main {
-  border: 2px solid black;
-  width: 70%;
-  background-color: wheat;
-  margin: 20%;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  margin: 30px;
-}
-
-.head {
-  display: flex;
-  flex-direction: row;
+  background-color: #edf4f5b0;
 }
 
 section {
-  border: 2px solid black;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  width: 70%;
+  border: 1px solid brown;
+  margin: 6% 15%;
 }
 
-button {
+.container {
+  border: 2px solid rgb(156, 96, 27);
+  background-color: rgb(236, 161, 20);
+  justify-content: space-around;
+}
+
+.scores {
+  margin: 30px;
+}
+
+.form {
+  margin-top: 60px;
+
+  /* width: 20%; */
+}
+
+input {
+  border-radius: 5px;
+  height: 32px;
+  padding: 5px;
+  width: 250px;
+  margin-top: 8px;
+}
+
+.refresh,
+.btn {
+  background-color: rgb(88, 37, 228);
+  height: 30px;
   padding: 0.2em 1em;
   border: none;
   border-radius: 5px;
   font-weight: 700;
-  background-color: var(--tetiary-color);
-  color: rgba(0, 255, 255, 0.747);
+  color: #f4f5fc;
+  width: 80px;
 }
 
 h1 {
-  margin: 1rem;
-  padding: 0 0.2rem;
-  border-radius: 5px;
-  background-color: var(--secondary-color);
+  margin: 10px 50px;
   filter: drop-shadow(1px 1px 1px);
   text-shadow: 1px 1px 1px var(--tetiary-color);
   /* stylelint-disable-next-line csstree/validator */
   font-size: clamp(1.5rem, 5vw, 2rem);
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(93, 52, 189);
+  font-size: larger;
 }
 
 .element {
@@ -86,9 +90,37 @@ h1 {
 
 .table {
   border: 2px solid;
-  margin-top: 10px;
-  padding: 5px 10px;
-  justify-content: space-between;
-  width: 220px;
+  padding: 8px;
+  width: 300px;
   background-color: white;
+}
+
+th {
+  padding: 3px;
+}
+
+.head {
+  margin: 30px;
+}
+
+.refresh:hover,
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #25316d;
+}
+
+thead {
+  color: #f4f5fc;
+  text-align: left;
+  background-color: rgb(206, 9, 147);
+}
+
+tbody tr {
+  color: #25316d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: #97d2ec;
 }
