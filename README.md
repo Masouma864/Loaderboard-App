@@ -2,7 +2,7 @@
 
 
 ## Description 
-   - In this activity we  set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
+   - In this activity I continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
 
 
 -Send and receive data from an API.
@@ -40,7 +40,7 @@
 
    - For tracking the linter errors in CSS file run:
 
-         npx stylelint "*/.{css,scss}"
+         npx stylelint "**/*.{css,scss}"
 
    - To view the page :
 

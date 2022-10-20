@@ -30,16 +30,16 @@ const addScore = (name, score) => {
 };
 
 const getAllScores = async () => {
-  const table = document.querySelector('.table');
+  const table = document.querySelector('tbody');
   table.innerHTML = '';
   await fetch(scoresURL)
     .then((response) => response.json())
     .then((json) => json.result.forEach((element) => {
       const scoresHTML = `
-      <div class='element d-flex f-row'>
-      <p class='name'>${element.user}</p>
-      <p class='score'>${element.score}</p>
-      </div>`;
+      <tr>
+      <td class='name'>${element.user}</td>
+      <td class='score'>${element.score}</td>
+      </tr>`;
       table.innerHTML += scoresHTML;
     }));
 };
