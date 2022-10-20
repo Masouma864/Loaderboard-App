@@ -14,10 +14,10 @@
 
 body {
   background-color: #edf4f5b0;
- 
 }
-section{
-width:70%;
+
+section {
+  width: 70%;
   border: 1px solid brown;
   margin: 6% 15%;
 }
@@ -27,13 +27,14 @@ width:70%;
   background-color: rgb(236, 161, 20);
   justify-content: space-around;
 }
+
 .scores {
   margin: 30px;
 }
 
 .form {
   margin-top: 60px;
-  
+
   /* width: 20%; */
 }
 
@@ -45,20 +46,20 @@ input {
   margin-top: 8px;
 }
 
-
-.refresh , .btn{
+.refresh,
+.btn {
   background-color: rgb(88, 37, 228);
   height: 30px;
   padding: 0.2em 1em;
   border: none;
   border-radius: 5px;
   font-weight: 700;
-  color:#f4f5fc;
+  color: #f4f5fc;
   width: 80px;
 }
 
 h1 {
-  margin:10px 50px;
+  margin: 10px 50px;
   filter: drop-shadow(1px 1px 1px);
   text-shadow: 1px 1px 1px var(--tetiary-color);
   /* stylelint-disable-next-line csstree/validator */
@@ -66,8 +67,8 @@ h1 {
   justify-content: center;
 }
 
-h2{
-  color:rgb(93, 52, 189);
+h2 {
+  color: rgb(93, 52, 189);
   font-size: larger;
 }
 
@@ -89,25 +90,24 @@ h2{
 
 .table {
   border: 2px solid;
-  padding: 8px ;
+  padding: 8px;
   width: 300px;
- 
   background-color: white;
 }
-th{
+
+th {
   padding: 3px;
 }
 
 .head {
   margin: 30px;
-
 }
+
 .refresh:hover,
 .btn:hover {
   transform: scale(1.1);
   background-color: #25316d;
 }
-
 
 thead {
   color: #f4f5fc;
@@ -124,4 +124,3 @@ tbody tr {
 tr:nth-child(even) {
   background-color: #97d2ec;
 }
-
