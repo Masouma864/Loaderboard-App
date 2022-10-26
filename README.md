@@ -2,15 +2,16 @@
 
 
 ## Description 
-   - In this activity I continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
-
+ - In this activity I continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
 
 -Send and receive data from an API.
 -Use API documentation.
 -Understand and use JSON.
 -Make JavaScript code asynchronous.
 
+## Live demo
 
+Check the live demo here [LINK](https://masouma864.github.io/Leaderboard/)
 ## Built With
    - HTML, CSS (Flex Box & Grid)
    - JAVASCRIPT ES6
@@ -32,7 +33,7 @@
 
    - After cloning the project you need to run this command
 
-         npm install This command will download all the dependencies of the project
+         npm install   (This command will download all the dependencies of the project) 
 
    - For tracking the linter errors in HTML file run:
 
@@ -50,7 +51,7 @@
    👤 *Masouma**
 - GitHub: [@masouma864](https://github.com/Masouma864)
 - Twitter: [@hasina389](https://twitter.com/hasina389)
-- LinkedIn: [maosouma-m](https://www.linkedin.com/in/masouma-modarresi-9572a41b5/)
+- LinkedIn: [maosouma-modarresi](https://www.linkedin.com/in/masouma-modarresi/)
 
    
 

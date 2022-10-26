@@ -8,18 +8,20 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
+    "deploy":"gh-pages -d dist",
+
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Masouma864/Loaderboard.git"
+    "url": "git+https://github.com/Masouma864/loaderboard.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Masouma864/Loaderboard/issues"
   },
-  "homepage": "https://github.com/Masouma864/Loaderboard#readme",
+  "homepage": "https://masouma864.github.io/Loaderboard/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
