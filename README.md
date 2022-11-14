@@ -22,6 +22,9 @@ Check the live demo here [LINK](https://masouma864.github.io/Leaderboard/)
 ## Live Demo
 
 [**See Project 🚀**]( https://masouma864.github.io/Loaderboard-App/)
+
+![image](https://user-images.githubusercontent.com/74160063/201570311-6e1473c9-3828-4eb1-a3b3-45986d2c433d.png)
+
 ## Getting Started
    - To get a local copy up and running follow these simple example steps.
 
