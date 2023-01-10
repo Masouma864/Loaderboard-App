@@ -9,9 +9,7 @@
 -Understand and use JSON.
 -Make JavaScript code asynchronous.
 
-## Live demo
 
-Check the live demo here [LINK](https://masouma864.github.io/Leaderboard/)
 ## Built With
    - HTML, CSS (Flex Box & Grid)
    - JAVASCRIPT ES6
